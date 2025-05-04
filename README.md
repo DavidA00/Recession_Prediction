@@ -60,7 +60,8 @@ We report standard metrics (ROC AUC, F1, Precision, Recall, Average Precision), 
 
 ## Reproducibility
 
-You need to request an API key from the FRED website to access the macro-financial dataset. Once you have the key, replace the placeholder in main.ipynb with your actual key.
+You need to request an API key from the FRED website to access the macro-financial dataset. You may do so here: https://fred.stlouisfed.org/docs/api/api_key.html. 
+Once you have the key, replace the placeholder in main.ipynb with your actual key. 
 
 
 ## Citation
