@@ -23,29 +23,39 @@ Recessions are difficult to forecast in real time due to nonlinear macro-financi
    git clone https://github.com/DavidA00/Recession_Prediction.git
    cd Recession_Prediction
 
-2. (Recommended) Create and activate a virtual environment
-   python3 -m venv venv
-   source venv/bin/activate
+2. (Recommended) Create and activate a virtual environment  
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-3. Install required dependencies
-   pip install -r requirements.txt
+3. Install required dependencies  
+```bash
+pip install -r requirements.txt
+```
 
-4. Register the environment as a Jupyter kernel
-   python -m ipykernel install --user --name=venv --display-name "Python (Recession_Prediction)"
+4. Register the environment as a Jupyter kernel  
+```bash
+python -m ipykernel install --user --name=venv --display-name "Python (Recession_Prediction)"
+```
 
-5. Launch Jupyter Notebook (or JupyterLab if installed)
-   jupyter notebook
-   OR
-   jupyter lab
-
+5. Launch Jupyter Notebook (or JupyterLab if installed)  
+```bash
+jupyter notebook
+```
+**OR**
+```bash
+jupyter lab
+```
 
 ## Running the Project
 
-All code and results are contained in main.ipynb. Open and run the notebook from top to bottom:
+All code and results are contained in `main.ipynb`. Open and run the notebook from top to bottom:
 
-'''
+```bash
 jupyter notebook main.ipynb
-'''
+```
+
 
 This will:
 - Load and preprocess the macro-financial dataset
