@@ -1,6 +1,6 @@
 # U.S. Recession Prediction with Temporal Machine Learning
 
-This repository contains the full implementation for our project on forecasting U.S. economic recessions using macro-financial indicators and temporal machine learning models. We benchmark classical, ensemble, and deep sequence models—including ARIMAX, logistic regression, LightGBM, BiLSTM, and stacked ensembles—to predict NBER-defined recessions up to three months ahead.
+This repository contains the full implementation for our project on forecasting U.S. economic recessions using macro-financial indicators and temporal machine learning models. We benchmark classical, ensemble, and deep sequence models—including ARIMAX, logistic regression, LightGBM, BiLSTM, and logistic regression + random forest + Synthetic Minority Oversampling Technique stacked ensembles—to predict NBER-defined recessions up to three months ahead.
 
 ## Project Overview
 
@@ -23,12 +23,21 @@ Recessions are difficult to forecast in real time due to nonlinear macro-financi
    git clone https://github.com/DavidA00/Recession_Prediction.git
    cd Recession_Prediction
 
-2. (Recommended) Create a virtual environment:
+2. (Recommended) Create and activate a virtual environment
    python3 -m venv venv
    source venv/bin/activate
 
-3. Install all dependencies:
+3. Install required dependencies
    pip install -r requirements.txt
+
+4. Register the environment as a Jupyter kernel
+   python -m ipykernel install --user --name=venv --display-name "Python (Recession_Prediction)"
+
+5. Launch Jupyter Notebook (or JupyterLab if installed)
+   jupyter notebook
+   OR
+   jupyter lab
+
 
 ## Running the Project
 

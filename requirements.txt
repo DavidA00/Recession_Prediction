@@ -1,0 +1,14 @@
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.15.2
+matplotlib==3.10.0
+seaborn==0.13.2
+torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+tqdm==4.67.1
+statsmodels==0.14.4
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+lightgbm @ file:///tmp/lightgbm/LightGBM/dist/lightgbm-4.5.0-py3-none-linux_x86_64.whl
+yfinance==0.2.57
+fredapi==0.5.2
+ipykernel==6.17.1
