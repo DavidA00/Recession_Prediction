@@ -12,7 +12,7 @@ Recessions are difficult to forecast in real time due to nonlinear macro-financi
 ├── main.ipynb                      # Main notebook: trains all models and reproduces results
 ├── requirements.txt                # Python environment dependencies
 ├── Results/                        # Saved figures and output plots from experiments
-├── trials/                         # Archived notebooks and previous experiment iterations
+├── Trials/                         # Archived notebooks and previous experiment iterations
 ├── README.md                       
 └── .gitignore
 ```
